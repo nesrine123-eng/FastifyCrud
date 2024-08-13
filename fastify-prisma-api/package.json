@@ -1,0 +1,26 @@
+{
+  "name": "fastify-prisma-api",
+  "version": "1.0.0",
+  "description": "A Fastify CRUD API with TypeScript, Postgres, and Prisma ORM",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+     "dev": "ts-node src/routes/index.ts"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.0.0",
+    "@prisma/client": "^4.0.0",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "ts-node": "^9.0.0",
+    "@types/node": "^14.0.0",
+    "prisma": "^4.0.0"
+  }
+  
+}
